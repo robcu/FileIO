@@ -1,7 +1,3 @@
-import jodd.json.JsonSerializer;
-
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -11,9 +7,9 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        QuestionAndAnswer.readFile();
-        QuestionAndAnswer.askQuestions();
-        QuestionAndAnswer.save();
+        //Questionnaire.readFile();
+        Questionnaire.askQuestions();
+       // Questionnaire.save();
 
 
     }

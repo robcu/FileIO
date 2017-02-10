@@ -4,17 +4,14 @@ import java.util.HashMap;
 /**
  * Created by robculclasure on 2/8/17.
  */
-public class QandAPairs {
+public class QandAPair {
     String question;
     String answer;
-    static ArrayList<QandAPairs> pairs = new ArrayList<>();
 
-    //static HashMap<String, String> qAndA = new HashMap<>();
-
-    public QandAPairs() {}
+    public QandAPair() {}
 
 
-    public QandAPairs(String q, String a) {
+    public QandAPair(String q, String a) {
         this.question = q;
         this.answer = a;
     }
