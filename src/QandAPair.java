@@ -7,6 +7,7 @@ import java.util.HashMap;
 public class QandAPair {
     String question;
     String answer;
+    static ArrayList<QandAPair> pairs = new ArrayList<>();
 
     public QandAPair() {}
 
